@@ -12,20 +12,21 @@ Total =  Total / numOFpeople
 if percentage == 10:
     n1ewTotal = 0.10 * Total
     Total+= n1ewTotal
-    print("each person should pay " + str(Total))
+   
+    print(f"each person should pay {Total:.2f}")
 elif percentage == 12:
     n2ewTotal = 0.10 * Total
     Total+= n2ewTotal
-    print("each person should pay " + str(Total))
+    print(f"each person should pay {Total:.2f}")
 elif percentage == 15:
     n3ewTotal = 0.10 * Total
     Total+= n3ewTotal
-    print("each person should pay " + str(Total))
+    print(f"each person should pay {Total:.2f}")
 elif percentage == 20:
-  n4ewTotal = 0.10 * Total
-  Total+= n4ewTotal
-  print("each person should pay " + str(Total))
+    n4ewTotal = 0.10 * Total
+    Total+= n4ewTotal
+    print(f"each person should pay {Total:.2f}")
 else:
-    print("each person should pay " + str(Total))
+    print(f"each person should pay {Total:.2f}")
 
 
