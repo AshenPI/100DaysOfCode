@@ -9,8 +9,8 @@ password = []
 def generatePass():
 
     lettersCount = int(input("How may letters would you like? \n "))
-    digitsCount = int(input("How many numbers would you like? \n "))
-    charactersCount = int(input("How many symbols would you like? \n "))
+    digitsCount = int(input("How many digits would you like? \n "))
+    charactersCount = int(input("How many characters would you like? \n "))
     
     
     for i in range(lettersCount):
